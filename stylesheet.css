@@ -1,0 +1,135 @@
+/** {
+	outline: 1px solid black;
+}*/
+
+
+
+body {
+	
+	font-family: Garamond, serif;
+	text-decoration: none;
+	text-align: center;
+}
+
+#container {
+	background-color: #fff;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+/*positioning of top and bottom images*/
+.image { 
+   position: relative; 
+   width: 100%; /* for IE 6 */
+   margin-top: 10px;
+}
+/*text on top of header image*/
+h2 {
+   position: absolute; 
+   top: 2px;
+   left: 10px; 
+   width: 100%; 
+   font-size: 40px;
+   color: #fff;
+}
+
+.middle {
+	background: rgba( 186, 222, 255, 0.5 ); 
+	width: 585px;
+	min-height: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	box-shadow: 5px 5px 5px #525150;
+	background-image:url('images/flourish1.png'), url('images/flourish2.png');
+	background-position: top right, top left;
+	background-repeat: no-repeat;
+}
+/*form {
+    display: inline-block;
+}*/
+
+.checkList {
+	background: #fff;
+	border: 4px solid #70bb24;
+	border-radius: 10px;
+	font-weight: bold;
+	line-height: 1.75em;
+	min-height: 45px;
+	position: relative;
+	top: 10px;
+	margin: 0 auto;
+	max-width: 400px;
+	overflow: hidden;
+	width: 85%;
+}
+/*styling for input area*/
+#object {
+	background-color: #fff; 
+	border: none;
+	font-family: Garamond, serif;
+	font-size: 20px;
+	font-weight: bold;
+	color: #525150;
+	height: 25px;
+	padding-top: 9px;
+	text-align: center;
+	width: 100%;
+	outline: none;
+}
+/*setting up add button*/
+#button {
+	background: #fff;
+	border: 3px solid #70bb24;
+	border-radius: 10px;
+	font-weight: bold;
+	font-size: 15px;
+	min-height: 15px;
+	max-width: 150px;
+	margin: 0 auto;
+	margin-top:18px;
+	color: #525150;
+	outline: none;
+}
+/*effect for cursor over add button*/
+#button:hover {
+	cursor: pointer; 
+}
+/*sets up list class*/
+.list {
+	outline: none;
+}
+
+.item {
+	font-family: Garamond, serif;
+	color:#70bb24;
+	font-size: 20px;
+	text-align: center;
+	width: 180px;
+	height: 25px;
+	border: 2px solid #70bb24;
+	border-radius: 10px;
+	background-color: #fff;
+	margin: 0 auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	outline: none;
+	list-style: none;
+}
+
+#done {
+	font-size: 15px;
+	border: 2px solid #70bb24;
+	border-radius: 8px;	
+	position: relative;
+	padding-left: 4px;
+	padding-right: 4px;
+	background-color: #fff;
+}
+
+
+
+.crossedOut {
+	opacity:0.5;
+	text-decoration: line-through;
+}
